@@ -1,0 +1,70 @@
+    .background {
+        background: linear-gradient(to right, #242424, #1D1D1D);
+    }
+
+    .button-yellow {
+        background-color: #F8FAAD; 
+        padding: 10px 20px 10px 20px; 
+        color: black; 
+        border-radius: 7px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .white-font {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-style: bold;
+        text-decoration: none;
+    }
+
+    .short-hr {
+        background-color: #F8FAAD; 
+        margin-right: 175px; 
+        margin-top: 0px; 
+        opacity: 100%;
+        height: 4px;
+    }
+
+    .footer-hr {
+        background-color: #F8FAAD; 
+        margin-top: 0px; 
+        opacity: 100%;
+        height: 4px;
+        margin-right: 30px;
+        margin-left: 30px;
+        border-radius: 2px;
+    }
+
+    .zoom {
+        transition: .4s;
+        margin: 0;
+    }
+
+    .zoom:hover {
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    .box-card {
+        width: 350px;
+        height: 270px;
+        border: #F8FAAD;
+        background-color: #F8FAAD;
+        margin-left: 350px;
+        border-radius: 10px;
+    }
+
+    .contact-card {
+        width: 390px;
+        height: 512px;
+        border: #F8FAAD;
+        background-color: #F8FAAD;
+        border-radius: 10px;
+        margin-left: 200px;
+    }
+
