@@ -10,7 +10,7 @@
                         <field name="name"/>
                         <field name="position"/>
                         <field name="base_salary"/>
-                        <field name="employee_bonus"/> 
+                        <field name="bonus"/> 
                     </group>
                 </sheet>
             </form>
@@ -36,6 +36,12 @@
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem id="menu_intern_employee_root" name="Employee Tracker" sequence="10"/>
-    <menuitem id="menu_intern_employee_list" name="Employees" parent="menu_intern_employee_root" action="action_intern_employee" sequence="10"/>
+    <menuitem id="menu_intern_employee_root" 
+        name="Employee Tracker" 
+        sequence="10"/>
+
+    <menuitem id="menu_intern_employee_list" 
+        name="Employees" 
+        parent="menu_intern_employee_root" 
+        action="action_intern_employee" sequence="10"/>
 </odoo>

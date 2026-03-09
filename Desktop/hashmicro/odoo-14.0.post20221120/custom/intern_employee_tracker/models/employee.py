@@ -11,4 +11,5 @@ class InternEmployee(models.Model):
 
     @api.depends('base_salary')
     def _compute_bonus(self):
-        self.bonus = self.base_salary * 0.1
+        for rec in self:
+            rec.bonus = rec.base_salary * 0.1

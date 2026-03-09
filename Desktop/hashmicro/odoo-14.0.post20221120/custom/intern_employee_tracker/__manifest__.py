@@ -7,6 +7,7 @@
     'data': [
         'security/ir.model.access.csv',
         'views/employee_views.xml',
+        'views/leave_request_views.xml',
     ],
     'installable': True,
     'application': True,
